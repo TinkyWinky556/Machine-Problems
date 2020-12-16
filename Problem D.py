@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Convert .csv to dataframe.
-df = pd.read_csv("C:/Users/cally/Documents/activity.csv")
+df = Dataframe(pd.read_csv("C:/Users/cally/Documents/activity.csv"))
 
 days_passed = []
 number_of_steps = []

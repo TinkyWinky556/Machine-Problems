@@ -9,7 +9,7 @@ number_of_days = [d for d in data["date"].unique()]
 number_of_steps = []
 
 for i in number_of_days:
-    steps.append(data.loc[data["date"], "steps"].dropna().sum())
+    number_of_steps.append(data.loc[data["date"], "steps"].dropna().sum())
 
 # Create second dataframe for py-plotting
 frame = pd.DataFrame({"DaysAxis": number_of_days, "StepsAxis": number_of_steps})

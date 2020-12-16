@@ -30,7 +30,7 @@ print(df)
 
 df.plot(x ='Days', kind = 'line')
 
-plt.title('average number of steps taken')
+plt.title('The Average Number of Steps')
 plt.xticks(np.linspace(0,61,5))
 plt.ylabel('Steps')
 plt.show()

@@ -21,7 +21,7 @@ df.plot.line(x = "IntervalAxis", y = "StepsAxis")
 plt.title("Average measurement of total number of steps taken in a 5-minute interval")
 plt.xlabel("Time")
 plt.ylabel("Average steps")
-plt.xticks(np.linspace(0, 2355, 15))
+plt.xticks(np.linspace(0, 200, 15))
 plt.show()
 
 print("Interval with max average step: {df.loc[df['Steps'], 'Interval'].item()}.")

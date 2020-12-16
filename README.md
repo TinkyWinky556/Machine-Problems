@@ -3,12 +3,12 @@ For this exercise, you will be using activity.csv to generate and display the ne
 
 It is suggested that you look into the following modules (they might come in handy i.e. plotting bar charts, time series, histogram, formatting dates and computing ranges, mean, median, etc):
 
-Seaborn
-Numpy
-Pandas
-matplotlib.pyplot
-time, datetime
-statistics
+# Seaborn
+# Numpy
+# Pandas
+# matplotlib.pyplot
+# time, datetime
+# statistics
 
 Your task is to create a python script that would be able to display the information being asked for:
 

@@ -17,7 +17,7 @@ def fill_missing_nans(column):
          column = column
     return column
 
-# use the "df['col].apply(func)" method to map each column value onto a function. 
+# use the "df['col].apply(func)" method to map each column value onto my function which replaces NaN's with a random value. 
 df['steps'] = df['steps'].apply(fill_missing_nans)
 
 # Create a new dataset that is equal to the original dataset but with the missing data filled in.
